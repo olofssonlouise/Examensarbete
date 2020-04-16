@@ -1,4 +1,9 @@
 # ASP.NET Core (.NET Framework)
+- task: ghost-inspector-vsts-extension@1
+  inputs:
+    suiteid: '5e9849517237c94e863fdced'
+    apikey: 'e55bf26b24b9b1a3f9200170cfc7a54318cedf43'
+    starturl: 'https://nelly.com/se/kl%C3%A4der-f%C3%B6r-kvinnor/'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
