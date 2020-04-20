@@ -63,7 +63,8 @@ steps:
     suiteid: '5e9849517237c94e863fdced'
     apikey: 'a7e95b66dacf8f8f54a298404070a8397c642e1d'
     
+
 - task: AccessibilityChecker@0
   inputs:
-    url: 'https://www.forefront.se/'
-    tagoptions: 'wcag2a'
+    url: 'https://en.wikipedia.org/wiki/Main_Page'
+    tagoptions: 'best-practice'
