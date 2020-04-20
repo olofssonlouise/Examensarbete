@@ -68,4 +68,5 @@ steps:
     
 - task: AccessibilityChecker@0
   inputs:
-    tagoptions: 'wcag2a'
+    url: 'https://www.forefront.se/'
+    tagoptions: 'wcag2a, wcag2aa, section508, best-practice, experimental'
