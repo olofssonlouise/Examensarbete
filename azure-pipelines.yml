@@ -34,8 +34,9 @@ steps:
     rootFolderOrFile: '$(System.DefaultWorkingDirectory)\WebAppContent'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    archiveFile: '$(System.DefaultWorkingDirectory)/dist/$(Build.BuildId).zip'
     replaceExistingArchive: true
+
 
 - task: VSTest@2
   inputs:
