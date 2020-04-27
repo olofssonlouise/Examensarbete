@@ -58,6 +58,8 @@ steps:
     appType: 'webApp'
     WebAppName: 'LouiseWebApp'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    
+- task: PublishBuildArtifacts@1
 
 - task: ghost-inspector-vsts-extension@1
   inputs:
