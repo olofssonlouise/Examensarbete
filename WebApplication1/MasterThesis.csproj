@@ -1955,14 +1955,6 @@
     <Content Include="Umbraco\Views\member\edit.html" />
     <Content Include="Umbraco\Views\member\list.html" />
     <Content Include="Umbraco\Views\member\listview\listview.html" />
-    <Content Include="Umbraco\Views\packages\edit.html" />
-    <Content Include="Umbraco\Views\packages\options.html" />
-    <Content Include="Umbraco\Views\packages\overlays\delete.html" />
-    <Content Include="Umbraco\Views\packages\overview.html" />
-    <Content Include="Umbraco\Views\packages\views\created.html" />
-    <Content Include="Umbraco\Views\packages\views\install-local.html" />
-    <Content Include="Umbraco\Views\packages\views\installed.html" />
-    <Content Include="Umbraco\Views\packages\views\repo.html" />
     <Content Include="Umbraco\Views\partialviewmacros\create.html" />
     <Content Include="Umbraco\Views\partialviewmacros\delete.html" />
     <Content Include="Umbraco\Views\partialviewmacros\edit.html" />
