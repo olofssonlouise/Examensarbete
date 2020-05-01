@@ -487,7 +487,6 @@
     <Content Include="ApplicationInsights.config" />
     <Content Include="App_Data\Models\all.dll.path" />
     <Content Include="App_Data\Models\models.hash" />
-    <Content Include="App_Data\packages\installedPackages.config" />
     <Content Include="App_Data\TEMP\ClientDependency\1_482bbf1bbc2d47179f233ca68ef73c55.cdJ" />
     <Content Include="App_Data\TEMP\ClientDependency\1_5e3c5e522f52443a8f83ce3a56626078.cdJ" />
     <Content Include="App_Data\TEMP\ClientDependency\1_b87832b9007d4b4a9dbdbed75e6d36ce.cdJ" />
@@ -2369,6 +2368,7 @@
     <Content Include="Umbraco\Views\Preview\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\packages\" />
     <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="Models\" />
   </ItemGroup>
