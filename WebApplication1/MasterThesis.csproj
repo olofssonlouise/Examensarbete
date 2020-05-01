@@ -520,17 +520,14 @@
     <Content Include="App_Data\TEMP\ClientDependency\1_e6f5bd64bdff4ee78376ab358fe80c46.cdC" />
     <Content Include="App_Data\TEMP\ExamineIndexes\External\segments.gen" />
     <Content Include="App_Data\TEMP\ExamineIndexes\External\segments_6" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\write.lock" />
     <Content Include="App_Data\TEMP\ExamineIndexes\External\_2.cfs" />
     <Content Include="App_Data\TEMP\ExamineIndexes\External\_2_1.del" />
     <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments.gen" />
     <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments_6" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\write.lock" />
     <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_2.cfs" />
     <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_2_1.del" />
     <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments.gen" />
     <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments_3" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Members\write.lock" />
     <Content Include="App_Data\TEMP\NuCache\NuCache.Content.db" />
     <Content Include="App_Data\TEMP\NuCache\NuCache.Media.db" />
     <Content Include="App_Data\TEMP\TypesCache\umbraco-types.ANDREASTHENB8F6.hash" />
