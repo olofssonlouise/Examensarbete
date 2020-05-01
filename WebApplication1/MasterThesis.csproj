@@ -429,8 +429,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Data\Models\all.generated.cs" />
-    <Compile Include="App_Data\Models\models.generated.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -438,7 +436,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\cache\4\5\4\f\7\c\454f7cfdbddd55307952b8ea3a69063c9a2f418e.jpg" />
     <Content Include="App_Data\TEMP\ClientDependency\ANDREASTHENB8F6-909475d8affae7134c482b25c52517b1-map.xml" />
     <Content Include="App_Data\TEMP\ClientDependency\FFCG-HZXF7Y2-484eef8bf3fe6852572d824638015db4-map.xml" />
     <Content Include="App_Data\TEMP\ClientDependency\FFCG-HZXF7Y2-a1e16a37abafbdebdd144b300049a92b-map.xml" />
@@ -488,19 +485,6 @@
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="ApplicationInsights.config" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200406.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200406_001.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200406_002.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200407.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200408.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200423.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200428.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200429.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200501.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200309.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200310.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200311.json" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200407.json" />
     <Content Include="App_Data\Models\all.dll.path" />
     <Content Include="App_Data\Models\models.hash" />
     <Content Include="App_Data\packages\installedPackages.config" />
