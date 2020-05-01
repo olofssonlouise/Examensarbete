@@ -300,10 +300,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Umb.Testing.Web\Umb.Testing.Web.csproj">
-      <Project>{BD3572A8-14C7-43DF-8189-9912433258A9}</Project>
-      <Name>Umb.Testing.Web</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Umbraco.UnitTesting.Adapter\Umbraco.UnitTesting.Adapter.csproj">
       <Project>{1ae6fe43-5a60-4de4-9e4f-fc55980ee45a}</Project>
       <Name>Umbraco.UnitTesting.Adapter</Name>

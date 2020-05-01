@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using Umb.Testing.Web.Models;
 using Umbraco.Core;
+using Umbraco.Core.Models.PublishedContent;
 using Umbraco.Web;
 using Umbraco.Web.Mvc;
 
@@ -16,7 +17,8 @@ namespace Umb.Testing.Web.Controllers
 
         public PartialViewResult Byline()
         {
-            var content = Umbraco.AssignedContentItem;
+            var content;
+            content = Umbraco.AssignedContentItem;
             return PartialView("Byline", new BylineModel(
                 content.GetPropertyValue<string>("author").IfNullOrWhiteSpace(content.WriterName), 
                 content.GetPropertyValue<DateTime?>("date") ?? content.CreateDate
