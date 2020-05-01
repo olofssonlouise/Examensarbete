@@ -429,6 +429,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\Models\all.generated.cs" />
+    <Compile Include="App_Data\Models\models.generated.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -436,6 +438,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\cache\4\5\4\f\7\c\454f7cfdbddd55307952b8ea3a69063c9a2f418e.jpg" />
+    <Content Include="App_Data\TEMP\ClientDependency\ANDREASTHENB8F6-909475d8affae7134c482b25c52517b1-map.xml" />
+    <Content Include="App_Data\TEMP\ClientDependency\FFCG-HZXF7Y2-484eef8bf3fe6852572d824638015db4-map.xml" />
+    <Content Include="App_Data\TEMP\ClientDependency\FFCG-HZXF7Y2-a1e16a37abafbdebdd144b300049a92b-map.xml" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC2ROOT-lastsynced.txt" />
+    <Content Include="App_Data\TEMP\DistCache\LMW3SVC4ROOT-lastsynced.txt" />
     <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="config\Lang\cs-CZ.user.xml" />
@@ -480,6 +488,45 @@
     <Content Include="config\ClientDependency.config" />
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="ApplicationInsights.config" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200406.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200406_001.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200406_002.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200407.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200408.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200423.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200428.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200429.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.ANDREASTHENB8F6.20200501.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200309.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200310.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200311.json" />
+    <Content Include="App_Data\Logs\UmbracoTraceLog.FFCG-HZXF7Y2.20200407.json" />
+    <Content Include="App_Data\Models\all.dll.path" />
+    <Content Include="App_Data\Models\models.hash" />
+    <Content Include="App_Data\packages\installedPackages.config" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_482bbf1bbc2d47179f233ca68ef73c55.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_5e3c5e522f52443a8f83ce3a56626078.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_b87832b9007d4b4a9dbdbed75e6d36ce.cdJ" />
+    <Content Include="App_Data\TEMP\ClientDependency\1_e6f5bd64bdff4ee78376ab358fe80c46.cdC" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\segments_6" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\write.lock" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_2.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\External\_2_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\segments_6" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\write.lock" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_2.cfs" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\_2_1.del" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments.gen" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\segments_3" />
+    <Content Include="App_Data\TEMP\ExamineIndexes\Members\write.lock" />
+    <Content Include="App_Data\TEMP\NuCache\NuCache.Content.db" />
+    <Content Include="App_Data\TEMP\NuCache\NuCache.Media.db" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.ANDREASTHENB8F6.hash" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.ANDREASTHENB8F6.list" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.FFCG-HZXF7Y2.hash" />
+    <Content Include="App_Data\TEMP\TypesCache\umbraco-types.FFCG-HZXF7Y2.list" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\LouiseWebApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -2338,6 +2385,7 @@
     <Content Include="Umbraco\Views\Preview\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
